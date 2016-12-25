@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Zenbot Docs</title>
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/son-of-obsidian.css">
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <meta name="description" content="Документация по API вирутального ассистента Дуся - как создавать скрипты">
+  <meta name="author" content="UseYoVoice">
+  <meta name="title" content="Документация вирутального ассистента Дуся"/>
+  <meta name="image" content="http://docs.dusi.mobi/img/logo.png"/>
+
+  <meta itemprop="name" content="Виртуальный ассистента Дуся"/>
+  <meta itemprop="description" content="Документация по API вирутального ассистента Дуся - как создавать скрипты"/>
+  <meta itemprop="image" content="http://docs.dusi.mobi/img/logo.png"/>
+
+  <meta property="og:url" content="http://dusi.mobi" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Документация вирутального ассистента Дуся" />
+  <meta property="og:description" content="Документация по API вирутального ассистента Дуся - как создавать скрипты"/>
+  <meta property="og:image" content="http://docs.dusi.mobi/img/logo.png" />
+</head>
+
+<body>
+<div id="wrapper">
+
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper" role="navigation">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"><a href="/">На главную</a></li>
+      <li>
+        <h2>Введение</h2>
+        <ul>
+          <li><a href="/start/">Что такое Дуся</a></li>
+          <li><a href="/features/">Что она умеет делать</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2>Скрипты</h2>
+        <ul>
+          <li><a href="/scripts/">Что такое Скрипты</a></li>
+          <li><a href="/scripts/events/">События</a></li>
+          <li><a href="/scripts/actions/">Действия</a></li>
+          <li><a href="/scripts/patterns/">Шаблоны</a></li>
+          <li><a href="/scripts/conditions/">Условия</a></li>
+          <li><a href="/scripts/vars/">Переменные</a></li>
+          <li><a href="/scripts/functions/">Функции</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid animated fadeIn">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="pull-right contacts animated fadeInRightBig" role="region" aria-label="Контакты">
+            <a href="#" id="menu-toggle" title="Меню"><i class="fa fa-navicon"></i></a>
+            <a href="https://vk.com/dusi_mobi" target="_blank" title="Группа ВКонтакте"><i class="fa fa-vk"></i></a>
+            <a href="https://plus.google.com/communities/102112390188436612789" target="_blank" title="Сообщество Google+"><i class="fa fa-google-plus" aria-label="Сообщество Google Plus"></i></a>
+            <a href="http://4pda.ru/forum/index.php?showtopic=561485" target="_blank" title="Форум"><i class="fa fa-question-circle" aria-label="Форум"></i></a>
+            <a href="mailto:contact@dusi.mobi" title="Напишите нам"><i class="fa fa-envelope" aria-label="contact@dusi.mobi"></i></a>
+          </div>
+          <h2>{{page.title}}</h2>
+          <hr/>
+          <div class="content" role="main">
+            {{content}}
+            <br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+
+</html>
